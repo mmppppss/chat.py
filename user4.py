@@ -6,7 +6,7 @@ import sys
 import random as Random
 
 class ChatClient:
-    def __init__(self, host='0.tcp.sa.ngrok.io', port=16922):
+    def __init__(self, host='100.25.250.69', port=8685):
         self.username = 'user' + str(Random.randint(1, 10000))
         self.host = host
         self.port = port
